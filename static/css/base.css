@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: serif;
+    font-family: 'Chicago', sans-serif;
     box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@ header ul li {
 header ul li a {
   background-image: linear-gradient(
     to right,
-    #54b3d6,
+
     #54b3d6 50%,
     #000 50%
   );
