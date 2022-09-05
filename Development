@@ -4,3 +4,8 @@ Aug.29.2022:
     1. Finish the header.
     2. Set the font scheme to be Chicago, paying tribute to the first generation of Macintosh
     3. Finish the header of the base template
+
+
+Aug.30.2022
+    1. Make the footer down to the bottom using flexbox
+    2. Insert the js script to automate the year display

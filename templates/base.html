@@ -8,30 +8,38 @@
     {% endblock %}
     <link rel= "stylesheet" type="text/css" href="../static/css/base.css"/>
     <link href="https://fonts.cdnfonts.com/css/chicago-2" rel="stylesheet">
+    <link rel= "shortcut icon" type="image/png" href="../static/images/Icon.jpg" >
   </head>
   <body>
     {% block header %}
     <header>
       <ul>
-        <li> <a href="index.html">Home</a> </li>
-        <li> <a href="#">Research</a> </li>
-        <li> <a href="#">Me</a> </li>
-        <li> <a href="#">Contact</a> </li>
+        <li> <a href="/">Home</a> </li>
+        <li> <a href="/research">Research</a> </li>
+        <li> <a href="/projects">Projects</a> </li>
+        <li> <a href="/life">Life</a> </li>
+        <li> <a href="/contact">Contact</a> </li>
       </ul>
+    <img src="../static/images/namecalligraphy.png" alt="Steve's Chinese name">
     </header>
     {% endblock %}
-    <div id="content">{% block content %}
-
-
-    {% endblock %}</div>
 
 
 
-    <div id="footer">
+
+
+    <main>
+        {% block main %}
+        {% endblock %}
+    </main>
+
+
+
+    <footer>
       {% block footer %}
-      &copy; Copyright 2022 by Steve Wen  Font
+          <p>Copyright &copy; 2022-<script>document.write(new Date().getFullYear().toString())</script>, Steve Wen </p>
       {% endblock %}
-    </div>
+    </footer>
 
 
   </body>

@@ -1,0 +1,33 @@
+.sidebar{
+    background-color: blue;;
+    position: relative;
+    left: 5vw;
+    width: 20vw;
+    padding: 60px 0;
+	transition: all 0.5s ease;
+
+
+}
+
+
+.sidebar .profile{
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+.sidebar .profile img{
+	vertical-align: center;
+	align-content: center;
+	display: block;
+	width: 150px;
+	height: 150px;
+    border-radius: 50%;
+	margin: 0 auto;
+}
+
+.sidebar .name{
+	font-size: 32px;
+	text-align: center;
+}
+

@@ -6,8 +6,14 @@
 }
 
 body{
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
 
+header{
+    background-color: white;
 }
 
 header ul{
@@ -63,4 +69,15 @@ header ul li a:hover {
 
 header ul li a:hover::before{
   width: 100%;
+}
+
+
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: right;
 }
