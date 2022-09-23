@@ -11,15 +11,39 @@
 {% endblock %}
 
 {% block main %}
-    <div class="sidebar">
-         <div class="profile">
+    <section>
+        <div class="profile">
             <img src="../static/images/Steve.jpg" alt="Steve's headshot" >
-         </div>
-         <p class="name">
-             <br>
-             Steve Wen
-         </p>
-    </div>
+
+            <p class="name">
+                <br>
+                Steve Wen
+            </p>
+                <!--
+                <p class= "calli">
+                   <img src="../static/images/namecalligraphy.png" alt="Steve's Chinese name" >
+                </p>
+                -->
+
+
+            <p class= "short">
+            U2 Computer Science <br>
+            <a href="https://www.mcgill.ca/" style="text-decoration: none"> @ McGill University</a>
+            <a class='fa fa-map-marker'  href="#" style="text-decoration: none; font-size: 20px">Zhenjiang, China</a>
+            </p>
+        </div>
+
+        <ul id="links">
+            <li><a class='fa fa-linkedin-square' style='color: #0072b1' href="https://www.linkedin.com/in/steve-wen-31863b211/" ></a></li>
+            <li><a class= 'fa fa-github' style='color: #171515' href="https://github.com/SedimentaryRockStar"></a></li>
+            <li><a  class= 'fa fa-twitter' style='color:#1DA1F2' href="https://twitter.com/Sedi_RockStar"></a></li>
+            <li><a class= 'fa fa-facebook-square' style='color:#4267B2' href="https://www.facebook.com/shuo.wen.58"></a> </li>
+        </ul>
+    </section>
+
+    <aside>
+    Hello
+    </aside>
 {% endblock %}
 
 {% block footer %}

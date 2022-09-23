@@ -1,3 +1,5 @@
+flask --app app --debug run -p 8000
+
 Aug.28.2022: Initialize the website, name it sediweb
 
 Aug.29.2022:
@@ -9,3 +11,15 @@ Aug.29.2022:
 Aug.30.2022
     1. Make the footer down to the bottom using flexbox
     2. Insert the js script to automate the year display
+
+
+Sept.31- Sept.13. 2022
+    Omitted as the developer forgot to update the log
+
+
+Sept.14.2022
+    1. Add Hyperlink to multiple websites, LinkedIn, and Github and Twitter
+
+
+Sept.22.2022
+    1. Modification to sidebar
