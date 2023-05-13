@@ -1,4 +1,4 @@
-section{
+.sidebar{
     position: relative;
     left: 15vw;
     width: 11vw;
@@ -9,14 +9,14 @@ section{
 }
 
 
-section .profile{
+.sidebar .profile{
 	margin-bottom: 100px;
 	text-align: left;
 
 
 }
 
-section .profile img{
+.sidebar .profile img{
 	vertical-align: center;
 	align-content: center;
 	display: block;
@@ -26,24 +26,24 @@ section .profile img{
 	margin: 0 auto;
 }
 
-section .name{
+.sidebar .name{
 	font-size: 32px;
 	text-align: left;
 	line-height: 1.5em;
 }
 
-section .calli{
+.sidebar .calli{
 	padding: 1.5rem;
 	text-align: center;
 }
 
-section .calli img{
+.sidebar .calli img{
 	vertical-align: center;
 	align-content: center;
 	margin: 0 auto;
 }
 
-section .short{
+.sidebar .short{
 	line-height:2em;
 	text-align: left;
 	font-size: 18px;
@@ -51,7 +51,7 @@ section .short{
 
 
 
-section ul{
+.sidebar ul{
 	float: left;
 	position: relative;
 	bottom: 0;
@@ -62,21 +62,17 @@ section ul{
 
 }
 
-section ul li{
+.sidebar ul li{
 	text-align: left;
     padding: 1px 10px;
     border-radius: 10px;
 
 }
 
-section ul li a{
+.sidebar ul li a{
 	text-align: left;
 	text-decoration: none;
 }
 
 
-aside{
-	background-color: #1DA1F2;
-	float:right;
-}
 
