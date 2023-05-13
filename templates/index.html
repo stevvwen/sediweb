@@ -2,59 +2,45 @@
 {% block title %}Home{% endblock %}
 {% block head %}
   {{ super() }}
-    <link rel= "stylesheet" type="text/css" href="../static/css/index.css"/>
+  <link rel="stylesheet" type="text/css" href="../static/css/index.css"/>
 {% endblock %}
 
 {% block header %}
-{{ super() }}
-
+  {{ super() }}
 {% endblock %}
 
 {% block main %}
-    <style>
-        .indent-1 {float: left;}
-        section > section { float:left; }
-        .indent-1 section {width: 50%; float: left;}
-    </style>
+  <section class="indent-1">
+    <section class="sidebar">
+      <div class="profile">
+        <img src="../static/images/Steve.jpg" alt="Steve's headshot">
 
-    <section class="indent-1">
-        <section class="sidebar">
-            <div class="profile">
-                <img src="../static/images/Steve.jpg" alt="Steve's headshot" >
+        <p class="name">
+          <br>
+          Steve Wen
+        </p>
 
-                <p class="name">
-                    <br>
-                    Steve Wen
-                </p>
-                    <!--
-                    <p class= "calli">
-                       <img src="../static/images/namecalligraphy.png" alt="Steve's Chinese name" >
-                    </p>
-                    -->
+        <p class="short">
+          U2 Computer Science <br>
+          <a href="https://www.mcgill.ca/" style="text-decoration: none"> @ McGill University</a>
+          <a class='fa fa-map-marker' href="#" style="text-decoration: none; font-size: 20px">Zhenjiang, China</a>
+        </p>
+      </div>
 
-
-                <p class= "short">
-                U2 Computer Science <br>
-                <a href="https://www.mcgill.ca/" style="text-decoration: none"> @ McGill University</a>
-                <a class='fa fa-map-marker'  href="#" style="text-decoration: none; font-size: 20px">Zhenjiang, China</a>
-                </p>
-            </div>
-
-            <ul id="links">
-                <li><a class='fa fa-linkedin-square' style='color: #0072b1' href="https://www.linkedin.com/in/steve-wen-31863b211/" ></a></li>
-                <li><a class= 'fa fa-github' style='color: #171515' href="https://github.com/SedimentaryRockStar"></a></li>
-                <li><a  class= 'fa fa-twitter' style='color:#1DA1F2' href="https://twitter.com/Sedi_RockStar"></a></li>
-                <li><a class= 'fa fa-facebook-square' style='color:#4267B2' href="https://www.facebook.com/shuo.wen.58"></a> </li>
-            </ul>
-        </section>
-
-        <section>
-        About me
-        </section>
+      <ul id="links">
+        <li><a class='fa fa-linkedin-square' style='color: #0072b1' href="https://www.linkedin.com/in/steve-wen-31863b211/" ></a></li>
+        <li><a class='fa fa-github' style='color: #171515' href="https://github.com/SedimentaryRockStar"></a></li>
+        <li><a class='fa fa-twitter' style='color:#1DA1F2' href="https://twitter.com/Sedi_RockStar"></a></li>
+        <li><a class='fa fa-facebook-square' style='color:#4267B2' href="https://www.facebook.com/shuo.wen.58"></a></li>
+      </ul>
     </section>
 
+    <section>
+      About me
+    </section>
+  </section>
 {% endblock %}
 
 {% block footer %}
-{{ super() }}
+  {{ super() }}
 {% endblock %}
