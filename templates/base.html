@@ -38,7 +38,12 @@
 
     <footer>
       {% block footer %}
-          <p>Copyright &copy; 2022-<script>document.write(new Date().getFullYear().toString())</script>, Steve Wen </p>
+          <p>Copyright &copy; <span id="currentYear"></span> Steve Wen</p>
+
+          <script>
+            document.getElementById('currentYear').textContent = new Date().getFullYear().toString();
+          </script>
+
       {% endblock %}
     </footer>
 
