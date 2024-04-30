@@ -72,11 +72,25 @@
   font-size: 18px;
 }
 
-
 /* About me section */
-.about-me {
+.personal-content {
   width: calc(100% - 220px); /* Calculate width to fill remaining space */
-  padding: 20px;
+  padding-left: 10%;
+  padding-top: 3%;
   background-color: #fff;
   border: 1px solid #ccc;
+}
+
+.personal-content h1{
+  font-size: 30px; /* Increase the font size of the heading */
+}
+
+.personal-content .research-interest{
+  margin-top:1%;
+  margin-right:5%;
+  line-height:2;
+}
+
+.personal-content ul{
+  padding-left: 5%;
 }
