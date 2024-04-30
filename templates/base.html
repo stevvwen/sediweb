@@ -26,19 +26,15 @@
     {% endblock %}
 
 
-
-
-
     <main>
         {% block main %}
         {% endblock %}
     </main>
 
 
-
     <footer>
       {% block footer %}
-          <p>Copyright &copy; <span id="currentYear"></span> Steve Wen</p>
+          <p>Copyright &copy; 2022-<span id="currentYear"></span> Steve Wen</p>
 
           <script>
             document.getElementById('currentYear').textContent = new Date().getFullYear().toString();
