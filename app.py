@@ -14,13 +14,10 @@ def index():
 def research():
     return render_template('research.html')
 
-@app.route('/projects')
+@app.route('/blogs')
 def projects():
-    return render_template('projects.html')
+    return render_template('blogs.html')
 
-@app.route('/life')
-def life():
-    return render_template('life.html')
 
 @app.route('/contact')
 def contact():
