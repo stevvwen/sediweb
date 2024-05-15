@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: antiquewhite;
+    background-color: #fff;
 }
 
 header{
@@ -80,5 +80,5 @@ main{
 footer{
     background-color: aquamarine;
     text-align: right;
-    padding-right: 5%;
+    padding-right: 2%;
 }

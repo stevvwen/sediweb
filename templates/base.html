@@ -33,11 +33,15 @@
 
     <footer>
       {% block footer %}
-          <p>Copyright &copy; 2022-<span id="currentYear"></span> Steve Wen</p>
+          <p>Copyright &copy; 2022-<span id="currentYear"></span> Steve Wen, Font followed <a href="https://en.wikipedia.org/wiki/Fonts_on_Macintosh"><img src="../static/images/finder-logo.png" style="width: 15px; height: 15px" alt="Macintosh Icon"></a></p>
 
           <script>
             document.getElementById('currentYear').textContent = new Date().getFullYear().toString();
           </script>
+
+
+
+          <!-- Finder Icon Attribution: <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a> -->
 
       {% endblock %}
     </footer>

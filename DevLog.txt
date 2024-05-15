@@ -32,3 +32,9 @@ Apr.30.2024
     1. Updated the profile sidebar column alignment
     2. Footer alignment
     3. Finished the home page text
+    4. Added the hit map and visitor counter
+
+
+May.15.2024
+    1. I noticed I can't continually update the log somehow. I will try only the most important things
+    2. Finished the Page-not-Found page
